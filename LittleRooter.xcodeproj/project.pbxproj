@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		700BE6D21D4BB799004F20D3 /* LittleRooterClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 700BE6D01D4BB799004F20D3 /* LittleRooterClient.cpp */; };
+		700BE6D31D4BB799004F20D3 /* LittleRooterClient.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 700BE6D11D4BB799004F20D3 /* LittleRooterClient.hpp */; };
+		703B47A01D58B56F009F74F9 /* mac_policy_callbacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 703B479F1D58B56F009F74F9 /* mac_policy_callbacks.cpp */; };
+		7046FCFA1E4A40CC00A72340 /* KernelResolver.c in Sources */ = {isa = PBXBuildFile; fileRef = 7046FCF81E4A40CC00A72340 /* KernelResolver.c */; };
+		7046FCFB1E4A40CC00A72340 /* KernelResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 7046FCF91E4A40CC00A72340 /* KernelResolver.h */; };
+		706853A01D500E530097A293 /* LittleRooter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7068539E1D500E530097A293 /* LittleRooter.cpp */; };
+		706853A11D500E530097A293 /* LittleRooter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7068539F1D500E530097A293 /* LittleRooter.hpp */; };
+		7068B77D1D4F9130006511E1 /* mac_policy_hooks.c in Sources */ = {isa = PBXBuildFile; fileRef = 7068B77C1D4F9130006511E1 /* mac_policy_hooks.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		700BE6BF1D4BB455004F20D3 /* LittleRooter.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleRooter.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		700BE6C61D4BB455004F20D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700BE6D01D4BB799004F20D3 /* LittleRooterClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LittleRooterClient.cpp; sourceTree = "<group>"; };
+		700BE6D11D4BB799004F20D3 /* LittleRooterClient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LittleRooterClient.hpp; sourceTree = "<group>"; };
+		703B479F1D58B56F009F74F9 /* mac_policy_callbacks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mac_policy_callbacks.cpp; sourceTree = "<group>"; };
+		703B47A21D58B616009F74F9 /* mac_policy_callbacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mac_policy_callbacks.h; sourceTree = "<group>"; };
+		7046FCF81E4A40CC00A72340 /* KernelResolver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KernelResolver.c; sourceTree = "<group>"; };
+		7046FCF91E4A40CC00A72340 /* KernelResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KernelResolver.h; sourceTree = "<group>"; };
+		7068539E1D500E530097A293 /* LittleRooter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LittleRooter.cpp; sourceTree = "<group>"; };
+		7068539F1D500E530097A293 /* LittleRooter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LittleRooter.hpp; sourceTree = "<group>"; };
+		7068B77C1D4F9130006511E1 /* mac_policy_hooks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mac_policy_hooks.c; sourceTree = "<group>"; };
+		70EE4A351D64A669008152AD /* mac_policy_hooks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mac_policy_hooks.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		700BE6BB1D4BB455004F20D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		700BE6B51D4BB455004F20D3 = {
+			isa = PBXGroup;
+			children = (
+				700BE6C11D4BB455004F20D3 /* LittleRooter */,
+				700BE6C01D4BB455004F20D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		700BE6C01D4BB455004F20D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				700BE6BF1D4BB455004F20D3 /* LittleRooter.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		700BE6C11D4BB455004F20D3 /* LittleRooter */ = {
+			isa = PBXGroup;
+			children = (
+				7046FCF91E4A40CC00A72340 /* KernelResolver.h */,
+				7046FCF81E4A40CC00A72340 /* KernelResolver.c */,
+				70EE4A351D64A669008152AD /* mac_policy_hooks.h */,
+				7068B77C1D4F9130006511E1 /* mac_policy_hooks.c */,
+				703B47A21D58B616009F74F9 /* mac_policy_callbacks.h */,
+				703B479F1D58B56F009F74F9 /* mac_policy_callbacks.cpp */,
+				7068539F1D500E530097A293 /* LittleRooter.hpp */,
+				7068539E1D500E530097A293 /* LittleRooter.cpp */,
+				700BE6D11D4BB799004F20D3 /* LittleRooterClient.hpp */,
+				700BE6D01D4BB799004F20D3 /* LittleRooterClient.cpp */,
+				700BE6C61D4BB455004F20D3 /* Info.plist */,
+			);
+			path = LittleRooter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		700BE6BC1D4BB455004F20D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706853A11D500E530097A293 /* LittleRooter.hpp in Headers */,
+				7046FCFB1E4A40CC00A72340 /* KernelResolver.h in Headers */,
+				700BE6D31D4BB799004F20D3 /* LittleRooterClient.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		700BE6BE1D4BB455004F20D3 /* LittleRooter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700BE6C91D4BB455004F20D3 /* Build configuration list for PBXNativeTarget "LittleRooter" */;
+			buildPhases = (
+				700BE6BA1D4BB455004F20D3 /* Sources */,
+				700BE6BB1D4BB455004F20D3 /* Frameworks */,
+				700BE6BC1D4BB455004F20D3 /* Headers */,
+				700BE6BD1D4BB455004F20D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleRooter;
+			productName = LittleRooter;
+			productReference = 700BE6BF1D4BB455004F20D3 /* LittleRooter.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		700BE6B61D4BB455004F20D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jonathan Zdziarski";
+				TargetAttributes = {
+					700BE6BE1D4BB455004F20D3 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZDK8E23U52;
+					};
+				};
+			};
+			buildConfigurationList = 700BE6B91D4BB455004F20D3 /* Build configuration list for PBXProject "LittleRooter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 700BE6B51D4BB455004F20D3;
+			productRefGroup = 700BE6C01D4BB455004F20D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				700BE6BE1D4BB455004F20D3 /* LittleRooter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		700BE6BD1D4BB455004F20D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		700BE6BA1D4BB455004F20D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703B47A01D58B56F009F74F9 /* mac_policy_callbacks.cpp in Sources */,
+				706853A01D500E530097A293 /* LittleRooter.cpp in Sources */,
+				7046FCFA1E4A40CC00A72340 /* KernelResolver.c in Sources */,
+				700BE6D21D4BB799004F20D3 /* LittleRooterClient.cpp in Sources */,
+				7068B77D1D4F9130006511E1 /* mac_policy_hooks.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		700BE6C71D4BB455004F20D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Jonathan Zdziarski (ZDK8E23U52)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ZDK8E23U52;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		700BE6C81D4BB455004F20D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Jonathan Zdziarski (ZDK8E23U52)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZDK8E23U52;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		700BE6CA1D4BB455004F20D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEVELOPMENT_TEAM = ZDK8E23U52;
+				INFOPLIST_FILE = LittleRooter/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULE_NAME = com.zdziarski.LittleRooter;
+				MODULE_VERSION = 1.0.0d1;
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdziarski.LittleRooter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		700BE6CB1D4BB455004F20D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEVELOPMENT_TEAM = ZDK8E23U52;
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = LittleRooter/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULE_NAME = com.zdziarski.LittleRooter;
+				MODULE_VERSION = 1.0.0d1;
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdziarski.LittleRooter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		700BE6B91D4BB455004F20D3 /* Build configuration list for PBXProject "LittleRooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700BE6C71D4BB455004F20D3 /* Debug */,
+				700BE6C81D4BB455004F20D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700BE6C91D4BB455004F20D3 /* Build configuration list for PBXNativeTarget "LittleRooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700BE6CA1D4BB455004F20D3 /* Debug */,
+				700BE6CB1D4BB455004F20D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 700BE6B61D4BB455004F20D3 /* Project object */;
+}
